@@ -17,8 +17,37 @@
     />
 
     <title>Project X!</title>
+    <style>
+        body {
+            background: rgb(2,0,36);
+             background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); 
+        }
+
+    
+        section {
+            min-height: 93vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        nav {
+            background: rgb(2,0,36);
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,37,121,1) 0%, rgba(0,212,255,1) 100%);
+        }
+
+        .jumbotron{
+            background: rgb(2,0,36);
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); 
+            color: white;
+        }
+
+        
+        
+
+    </style>
   </head>
-  <body class="bg-color-black">
+  <body class=>
     <nav class="navbar navbar-light bg-light sticky-top">
       <header class="navbar-header d-flex">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -38,7 +67,7 @@
             <div class="navbar-nav">
               <a class="nav-link active" href="#best-album">Best Album<span class="sr-only">(current)</span></a
               >
-              <a class="nav-link" href="#worst-album">Worst Albums</a>
+              <a class="nav-link" href="#worst-albums">Worst Albums</a>
               <a class="nav-link" href="#Favourite">Favourite</a>
               <a class="nav-link" href="#just-covers" tabindex="-1">Covers</a>
             </div>
@@ -49,71 +78,71 @@
     </nav>
 
     
-    <section >
-      <div class="container" id="albums">
-        <div class="row mh-93vh">
-          <div class="card col-sm-6 col-md-4 col-xl-3 p-0 rounded-pill">
-            <img class="" src="Wizkid.jpeg" />
-            <div class="card-body">
-              <h5 class="card-title text-center font-weight-light">
+    <section  id="albums" >
+      <div class="container" >
+        <div class="row my-4">
+          <div class="mt-0.2em mb-0.25em col-sm-6 col-md-4 col-xl-3 p-5px border-strong">
+            <img class="img-fluid" src="Wizkid.jpeg" />
+            <div class="album-container">
+              <h5 class="album-title text-light text-center font-weight-light">
                 Made In Lagos
-              </h5>
+              </h4>
             </div>
           </div>
-          <div class="card col-sm-6 col-md-4 col-xl-3 p-0 rounded-pill">
-            <img class="" src="Davido.jpeg" />
-            <div class="card-body">
-              <h5 class="card-title text-center font-weight-light">
+          <div class="mt-0.2em mb-0.25em col-sm-6 col-md-4 col-xl-3 p-5px rounded-pill">
+            <img class="img-fluid" src="A better time.jpeg" />
+            <div class="album-container">
+              <h5 class="album-title text-light text-center font-weight-light">
                 A Better Time
-              </h5>
+              </h4>
             </div>
           </div>
-          <div class="card col-sm-6 col-md-4 col-xl-3 p-0 rounded-pill">
-            <img class="" src="Burna Boy.jpeg" />
-            <div class="card-body">
-              <h5 class="card-title text-center font-weight-light">
+          <div class="mt-0.2em mb-0.25em col-sm-6 col-md-4 col-xl-3 p-5px rounded-pill">
+            <img class="img-fluid" src="Burna Boy.jpeg" />
+            <div class="album-container">
+              <h5 class="album-title text-light text-center font-weight-light">
                 African Giant
-              </h5>
+              </h4>
             </div>
           </div>
-          <div class="card col-sm-6 col-md-4 col-xl-3 p-0 rounded-pill">
-            <img class="" src="High Tension.jpeg" />
-            <div class="card-body">
-              <h5 class="card-title text-center font-weight-light">
+          <div class="mt-0.2em mb-0.25em col-sm-6 col-md-4 col-xl-3 p-5px rounded-pill">
+            <img class="img-fluid" src="High Tension.jpeg" />
+            <div class="album-container">
+              <h5 class="album-title text-light text-center font-weight-light">
                 High Tension
-              </h5>
+              </h4>
             </div>
           </div>
-          <div class="card col-sm-6 col-md-4 col-xl-3 p-0 rounded-pill">
-            <img class="" src="High Tension.jpeg" />
-            <div class="card-body">
-              <h5 class="card-title text-center font-weight-light">
+          <div class="mt-0.2em mb-0.25em col-sm-6 col-md-4 col-xl-3 p-5px rounded-pill">
+            <img class="img-fluid" src="High Tension.jpeg" />
+            <div class="album-container">
+              <h5 class="album-title text-light text-center font-weight-light">
                 High Tension
-              </h5>
+              </h4>
             </div>
           </div>
-          <div class="card col-sm-6 col-md-4 col-xl-3 p-0 rounded-pill">
-            <img class="" src="High Tension.jpeg" />
-            <div class="card-body">
-              <h5 class="card-title text-center font-weight-light">
+          <div class="mt-0.5em mb-0.25em col-sm-6 col-md-4 col-xl-3 p-5px rounded-pill">
+            <img class="img-fluid" src="High Tension.jpeg" />
+            <div class="album-container">
+              <h5 class="album-title text-light text-center font-weight-light">
                 High Tension
-              </h5>
+              </h4>
             </div>
           </div>
-          <div class="card col-sm-6 col-md-4 col-xl-3 p-0 rounded-pill">
-            <img class="" src="High Tension.jpeg" />
-            <div class="card-body">
-              <h5 class="card-title text-center font-weight-light">
+          <div class="mt-0.2em mb-0.25em col-sm-6 col-md-4 col-xl-3 p-5px rounded-pill">
+            <img class="img-fluid" src="High Tension.jpeg" />
+            <div class="album-container">
+              <h5 class="album-title text-light text-center font-weight-light">
                 High Tension
-              </h5>
+              </h4>
             </div>
           </div>
-          <div class="card col-sm-6 col-md-4 col-xl-3 p-0 rounded-pill">
-            <img class="" src="High Tension.jpeg" />
-            <div class="card-body">
-              <h5 class="card-title text-center font-weight-light">
+          <div class="mt-0.2em mb-0.25em col-sm-6 col-md-4 col-xl-3 p-5px rounded-pill">
+            <img class="img-fluid" src="High Tension.jpeg" />
+            <div class="album-container">
+              <h5 class="album-title text-light text-center font-weight-light">
                 High Tension
-              </h5>
+              </h4>
             </div>
           </div>
         </div>
@@ -122,19 +151,19 @@
 
     <hr />
 
-    <section>
-      <div class="container" id="best-album">
+    <section id="best-album">
+      <div class="container">
         <div class="row">
 
           <div class="jumbotron col-12">
-            <h1 class="display-4">Best Album</h1>
+            <h1 class="display-4 text-light">Best Album</h1>
             <h4><img src="Wizkid.jpeg" alt="" /></h4>
-            <h4 class="">Title: Blessed ft Darmian Marley</h4>
+            <h4 class="text-light">Title: Blessed ft Darmian Marley</h4>
             <div>
-                <p>Title:Blessed ft Darmian Marley</p>
-                <p>Band:Star Boy Entertainment</p>
-                <p>Duration: 4:21</p>
-                <p>Gerne: Afro-pop</p>
+                <p class="text-light">Title:Blessed ft Darmian Marley</p>
+                <p class="text-light">Band:Star Boy Entertainment</p>
+                <p class="text-light">Duration: 4:21</p>
+                <p class="text-light">Gerne: Afro-pop</p>
             </div>
             
 
@@ -143,37 +172,35 @@
       </div>
     </section>
 
-     <section>
-        <div class="container" id="worst-album">
-          <div class="row">
-
-             <div class="col-12">
-                 <h1 class="text-center">Worst Albums</h1>
-             </div>
-             <div>
-                 <div>
-                     <img src="" alt="">
-                     <h4>lorem 50</h4>
-                     <span></span>
-                 </div>
-             </div>
-             <div>
-                <div>
-                    <img src="" alt="">
-                    <h4>lorem</h4>
-                    <span></span>
-                </div> 
-             </div>
-             <div>
-                <div>
-                    <img src="" alt="">
-                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero consequuntur officiis accusantium temporibus cumque optio rem! Ipsa cupiditate quo iste ratione. Ea non consequatur quidem vero veniam dolores iure repellendus!</h4>
-                    <span></span>
+    <section id="worst-albums">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="text-center text-light my-4">Worst Albums</h1>
                 </div>
-             </div>
-
-          </div>
-        </div>
+                <div class="col-6 col-md-4">
+                    <div class="album-container">
+                        <img src="Worst 1.jpeg" class="img-fluid">
+                        <h4 class="album-title text-light">Worst Album 1</h4>
+                        <span class="text-light">This album is terrible because yes.</span>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4">
+                    <div class="album-container">
+                        <img src="Worst 2.jpeg" class="img-fluid">
+                        <h4 class="album-title text-light">Worst Album 2</h4>
+                        <span class="text-light">This album is terrible because yes.</span>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4">
+                    <div class="album-container">
+                        <img src="Worst 3.jpeg" class="img-fluid">
+                        <h4 class="album-title text-light">Worst Album 3</h4>
+                        <span class="text-light">This album is terrible because yes.</span>
+                    </div>
+                </div>
+            </div>
+        </div>    
     </section>
 
     <section>
