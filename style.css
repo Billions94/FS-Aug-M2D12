@@ -76,3 +76,22 @@ span.badge.badge-primary{
 p.card-text {
     font-weight: small;
 }
+
+table.table {
+    background-color: white;
+    
+}
+
+.row1{
+    background-color:gold;
+    
+}
+
+.row2 {
+    background-color: silver;
+}
+
+.row3 {
+    background-color: rgb(168, 106, 12);
+}
+
