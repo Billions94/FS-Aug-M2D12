@@ -3,6 +3,28 @@ body {
      background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); 
 }
 
+/* .intro {
+  opacity:0;
+  position: absolute;
+  right: 25%;
+  top: 100px;
+  padding: 1rem 2rem;
+  z-index: 10;
+  border-radius: 6px;
+  box-shadow: 0 6px 40px rgba(0 0 0 / 0.35);
+  transition: opacity 0.3s ease-in;
+  animation: gradientSlide 4s ease infinite;  
+} */
+
+#disappear {
+    background-color: transparent;
+    color: white;  
+}
+
+.intro.show{
+    opacity: 1;
+
+}
 
 section {
     min-height: 93vh;
@@ -42,3 +64,15 @@ h5 {
     color: white;
 }
 
+.favourite{
+    position: relative;
+}
+
+span.badge.badge-primary{
+    position: absolute;
+    border-radius: 3px;
+}
+
+p.card-text {
+    font-weight: small;
+}
